@@ -30,7 +30,7 @@ def login():
 
                 login_user(user)
 
-                flash('Bienvenido de nuevo')
+                flash('Bienvenido de nuevo amigo')
 
                 redirect(url_for('hello'))
             else:
